@@ -7,7 +7,7 @@ h1 {
   color: #99CFE0;
   margin-top: 50px;
   margin-bottom: 50px;
-  font-size: 42px;
+  font-size: 45px;
   font-style: italic;
 }
 
@@ -17,18 +17,22 @@ h2, p, ol {
 }
 
 h2 {
-  font-size: 27px;
+  font-size: 32px;
 }
 
 p, ol {
-  font-size: 17px;
+  font-size: 21px;
+}
+
+.aboutmesection{
+  margin-left:550px;
 }
 
 img {
-  display: block;
-  margin: 0 auto;
-  width: 600px;
-  height: 620px;
+  display: inline-block;
+  margin: 0px auto 50px 200px;
+  width: 70%;
+  height: 600px;
 }
 
 ul {
@@ -51,4 +55,14 @@ input, textarea, button {
 textarea {
   height:70px;
   resize:vertical;
+}
+
+a {
+  color:blue;
+  text-decoration:none;
+  font-size:20px;
+}
+
+a:hover{
+  text-decoration:underline;
 }
